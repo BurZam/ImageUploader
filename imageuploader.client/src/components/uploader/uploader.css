@@ -1,0 +1,39 @@
+.uploader-container {
+	border-radius: 12px;
+	background: #fff;
+	box-shadow: 0px 4px 12px 0px rgba(0, 0, 0, 0.1);
+	padding: 36px 32px;
+}
+
+.body-container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 30px;
+
+	button:nth-last-child(1) {
+		width: 101px;
+	}
+}
+
+.drop-container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	border-radius: 12px;
+	background: #f6f8fb;
+	padding: 40px 90px;
+
+	.label {
+		margin-top: 35px;
+	}
+}
+
+.drop-container-dragging {
+	opacity: 0.5;
+	border: 1px dashed #97bef4;
+}
+
+.label {
+    pointer-events: none;
+}
